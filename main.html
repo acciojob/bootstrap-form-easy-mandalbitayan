@@ -12,6 +12,7 @@
     <div class="mb-3">
       <label for="first-name-input" class="form-label">First name</label>
       <input type="text" class="form-control" id="first-name-input" required/>
+		<div id="first-name-error" class="error-message"></div>
       <label for="last-name-input" class="form-label">Last name</label>
       <input type="text" class="form-control" id="last-name-input" required/>
       <label for="email-input" class="form-label">Email address</label>
@@ -31,7 +32,7 @@
       <select
         class="form-select"
         aria-label="Default select example"
-        id="grad-year-select"
+        id="grad-year-select" required
       >
         <option selected>Choose....</option>
         <option value="1">2020</option>
