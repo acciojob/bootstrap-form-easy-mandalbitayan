@@ -28,6 +28,7 @@
     <div class="mb-3">
       <label for="college-input" class="form-label">College</label>
       <input type="text" class="form-control" id="college-input" required/>
+		<div id="college-error" class="error-message"></div>
       <label for="grad-year-select" class="form-label"
         >Graduation Year</label
       >
@@ -44,6 +45,7 @@
       </select>
       <label for="roll-no-input" class="form-label">Roll No.</label>
       <input type="text" class="form-control" id="roll-no-input" required/>
+		<div id="roll-no-error" class="error-message"></div>
     </div>
     <div class="form-check">
       <input
@@ -53,9 +55,11 @@
         id="conditions-checkbox"
         required
       />
+		<div id="graduation-year-error" class="error-message"></div>
       <label class="form-check-label" for="conditions-checkbox" >
         Agree to terms and Conditions
       </label>
+		 <div id="conditions-error" class="error-message"></div>
     </div>
     <br />
     <button type="button" class="btn btn-primary">Submit form</button>
